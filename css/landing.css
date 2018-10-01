@@ -32,6 +32,8 @@ ul {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	box-sizing: border-box;
+	padding-left: 70px;
 }
 
 #bar {
