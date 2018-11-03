@@ -9,6 +9,7 @@
 	left: 15%;
 	top: 20px;
 	width: 70%;
+	min-height: 70vh;
 	padding: 10px;
 	box-sizing: border-box;
 	display: grid;
