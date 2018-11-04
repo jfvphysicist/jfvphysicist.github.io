@@ -108,7 +108,7 @@ h2.here {
 	border: 1px solid #72EAB4;
 }
 
-@media (max-width: 1270px) {
+@media (max-width: 1300px) {
 	.navbar ul li {
 		float: none;
 	}
