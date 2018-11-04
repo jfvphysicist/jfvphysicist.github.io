@@ -81,3 +81,13 @@
 	font-size: 30px;
 }
 
+@media (max-width: 600px) {
+	#gridContainer {
+		grid-template-columns: 100%;
+	}
+
+	#sidebar {
+		grid-row: 3/4;
+		grid-column: 1/2;
+	}
+}
