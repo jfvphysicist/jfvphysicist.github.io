@@ -38,10 +38,7 @@ ul {
 #info p {
 	padding: 25px;
 	color: #E7ECEF;
-}
-
-#info figure p {
-	text-align: center;
+	text-align: justify;
 }
 
 #bar {

@@ -32,6 +32,15 @@ body {
 	text-decoration: none;
 }
 
+#logo {
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	z-index: 3;
+	background-image: url("../img/Icon.png");
+	background-size: contain;
+}
+
 .navbar h2 {
 	width: 254px;
 	height: 62px;
