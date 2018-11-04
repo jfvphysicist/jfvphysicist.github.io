@@ -159,8 +159,11 @@ a {
 		margin: auto;
 		z-index: auto;
 		margin-top: 45vh;
-		width: 70%;
+		width: 100%;
 		grid-template-columns: 100%;
+		margin-bottom: 50px;
+		box-shadow: none;
+		border-radius: 0;
 	}
 
 	ul li.menu a:hover h2 {
@@ -179,7 +182,16 @@ a {
 		grid-column: 1/2;
 		height: 70px;
 		width: 100%;
-		border-radius: 10px 10px 0 0;
+		/*border-radius: 10px 10px 0 0;*/
+		border-radius: 0;
+	}
+
+	#bar #logo {
+		border-radius: 0;
+	}
+
+	ul li:nth-child(3) {
+		background-position: center right;
 	}
 }
 
