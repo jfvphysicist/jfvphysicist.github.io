@@ -81,7 +81,7 @@
 	font-size: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1270px) {
 	#gridContainer {
 		grid-template-columns: 100%;
 	}
@@ -89,5 +89,6 @@
 	#sidebar {
 		grid-row: 3/4;
 		grid-column: 1/2;
+		min-height: 50vh;
 	}
 }

@@ -107,3 +107,40 @@ h2.here {
 	line-height: 62px;
 	border: 1px solid #72EAB4;
 }
+
+@media (max-width: 1270px) {
+	.navbar ul li {
+		float: none;
+	}
+
+	#logo {
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #202020;
+		/*left: 50%;
+		transform: translateX(-32px);*/
+	}
+
+	.navbar {
+		align-items: flex-start;
+		top: 64px;
+		height: 310px;
+	}
+
+	#blogImg {
+		height: 374px;
+	}
+
+	#publicationsImg {
+		height: 374px;
+	}
+
+	#resumeImg {
+		height: 374px;
+	}
+
+	#contactImg {
+		height: 374px;
+	}
+}
