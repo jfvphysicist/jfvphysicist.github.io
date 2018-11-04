@@ -1,6 +1,6 @@
 User-agent: * 
-Disallow: /img
-Disallow: /css
-Disallow: /files
+Disallow: /img/
+Disallow: /css/
+Disallow: /files/
 Disallow: perso.html
 Disallow: secret.html
