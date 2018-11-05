@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', Arial;
+	box-sizing: border-box;
+}
+
+#temp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 1.8;
+	margin-top: 25vh;
+}
+
+#temp h2 {
+	color: #E7ECEF;
+	font-size: 75px;
+}
+
+#temp p {
+	color: #E7ECEF;
+	font-size: 10px;
+}
+
+@media (max-width: 1300px) {
+	#temp h2 {
+		font-size: 45px;
+	}
+}
