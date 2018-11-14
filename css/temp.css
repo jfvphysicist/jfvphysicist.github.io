@@ -14,6 +14,11 @@
 	margin-top: 25vh;
 }
 
+a {
+	text-decoration: none;
+	color: #75C6B1;
+}
+
 #temp h2 {
 	color: #E7ECEF;
 	font-size: 75px;
