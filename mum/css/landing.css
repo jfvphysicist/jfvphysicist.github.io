@@ -129,24 +129,11 @@ a {
 	box-shadow: 10px 8px 0 0 rgba(138,96,19,.2);
 }
 
-
-#famille_info {
-	/*background-color: #ededcc;*/
-}
-
-#entreprise_info {
-	/*background-color: #d9edcc;*/
-}
-
-#contact_info {
-	/*background-color: #edcfcc;*/
-}
-
 .zone {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 10vh;
+	/*margin-top: 10vh;*/
 }
 
 .bloc {
@@ -222,7 +209,7 @@ a {
 
 #pic_entreprise {
 	background: no-repeat url("../img/parents.jpg") 50% / 100%;
-	height: auto;
+	max-height: 60%;
 	width: auto;
 }
 
