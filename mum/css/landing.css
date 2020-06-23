@@ -265,15 +265,15 @@ a {
 	border: 1px solid var(--scnd-act-clr);
 }
 
-.scrollDown {
+#scrollDown{
   height: 100vh;
   position: relative;
   width: 100%;
 }
 
-.scrollDown::before {
+#scrollDown::before {
   animation: bounce 1s ease infinite;
-  bottom: 1rem;
+  bottom: 5px;
   /*color: var(--scnd-act-clr);*/
   content: '╲╱';
   font-size: 2rem;
