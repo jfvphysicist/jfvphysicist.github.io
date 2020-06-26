@@ -22,8 +22,10 @@ document.addEventListener('DOMContentLoaded', function() {
 			var menu = document.getElementById("menu");
 
 			function resListener() {
-				if (window.innerWidth > 1400) {
+				if (window.innerWidth > 1200) {
 					menu.style.display = "flex";
+				} else if (window.innerWidth <= 1200) {
+					menu.style.display = "none";
 				}
 			}
 

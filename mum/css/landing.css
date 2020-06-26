@@ -20,7 +20,7 @@ li {
 	list-style: none;
 }
 
-@media (min-width: 1401px) {
+@media (min-width: 1201px) {
 	#header {
 		position: absolute;
 		top: 0;
@@ -33,12 +33,9 @@ li {
 		align-items: center;
 	}
 
-	#logo {
-		background-image: url("../img/logo.png");
-		background-size: contain;
-		background-repeat: no-repeat;
-		height: 100px;
+	#logo img {
 		width: 100px;
+		height: auto;
 	}
 
 	#navbar {
