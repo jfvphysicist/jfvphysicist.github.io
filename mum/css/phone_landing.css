@@ -1,7 +1,7 @@
 @media (max-width: 1200px) {
 
 	#logo img {
-		width: 100px;
+		width: 150px;
 		height: auto;
 		padding-right: 15px;
 	}
@@ -15,7 +15,7 @@
 	#header h1 {
 		font-family: 'Indie Flower';
 		color: var(--scnd-act-clr);
-		font-size: 40px;
+		font-size: 35px;
 	}
 
 	#navbar {
@@ -143,6 +143,11 @@
 	#text_intro {
 		background-color: #FF904A;
 		opacity: 0.9;
+	}
+
+	#text_intro h2 {
+		font-family: 'Indie Flower';
+		color: var(--scnd-act-clr);
 	}
 
 	#pic_intro {
