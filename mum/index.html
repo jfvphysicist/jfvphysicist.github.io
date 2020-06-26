@@ -12,8 +12,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="js/coolNavbarFunction.js"></script>
-	<script src="js/scrollFunction.js"></script>
 </head>
 
 <body id="body" class="regular">
@@ -22,14 +20,14 @@
 		<h1>Thérapeute-Coach Véronique Monin</h1>
 	</div>
 	<div id="navbar">
-		<a href="javascript:void(0);" class="icon" onclick="revealNavbar()">
+		<a href="javascript:void(0);" class="icon" id="burger" onclick="revealNavbar()">
 			<i class="fa fa-bars"></i>
 		</a>
 		<ul id="menu">
-			<li><a href="#main">Accueil</a></li>
-			<li><a href="#famille_info">Pour les ados</a></li>
-			<li><a href="#parents_info">Pour les parents</a></li>
-			<li><a href="#contact_info">Prenez rendez-vous</a></li>
+			<li><a href="#main" onclick="hideNavbar()">Accueil</a></li>
+			<li><a href="#famille_info" onclick="hideNavbar()">Pour les ados</a></li>
+			<li><a href="#parents_info" onclick="hideNavbar()">Pour les parents</a></li>
+			<li><a href="#contact_info" onclick="hideNavbar()">Prenez rendez-vous</a></li>
 		</ul>
 	</div>
 	
@@ -106,14 +104,6 @@
 	</div>
 </body>
 </html>
-<script>
-		
-			function revealNavbar() {
-			  var x = document.getElementById("menu");
-			  if (x.style.display === "flex") {
-			    x.style.display = "none";
-			  } else {
-			    x.style.display = "flex";
-			  }
-			}
-	</script>
+
+<script src="js/coolNavbarFunction.js"></script>
+<script src="js/scrollFunction.js"></script>

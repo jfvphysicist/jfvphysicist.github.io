@@ -18,4 +18,31 @@ document.addEventListener('DOMContentLoaded', function() {
 			    navbar.setAttribute('id', 'navbar');
 			  }
 			}
+
+			var menu = document.getElementById("menu");
+
+			function resListener() {
+				if (window.innerWidth > 1400) {
+					menu.style.display = "flex";
+				}
+			}
+
+			window.onresize = resListener;
 		});
+
+function revealNavbar() {
+	var x = document.getElementById("menu");
+	if (x.style.display === "flex") {
+		x.style.display = "none";
+	} else {
+		x.style.display = "flex";
+	}
+};
+
+function hideNavbar() {
+	var y = document.getElementById("burger");
+	var m = document.getElementById("menu");
+	if (y.style.display !== "none") {
+		m.style.display = "none";
+	}
+};
