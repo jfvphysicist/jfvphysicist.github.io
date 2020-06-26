@@ -74,7 +74,7 @@
 
 	.section h1 {
 		font-family: 'Indie Flower';
-		padding: 15px;
+		padding: 15px 0 15px 0;
 		color: var(--scnd-act-clr);
 		background-color: rgba(255,196,87,.8);
 		width: 100%;
@@ -88,7 +88,7 @@
 	}
 
 	.bloc {
-		width: 100%;
+		max-width: 100%;
 		margin: 0;
 		padding: 0 10px 0 10px;
 		display: flex;
@@ -108,19 +108,40 @@
 		opacity: 1;
 	}
 
-	#text_intro {
+	.more {
+		color: var(--act-clr);
+		padding: 10px;
+		border: 1px solid var(--act-clr);
+		transition: 0.3s;
+	}
 
+	.more:hover {
+		color: var(--scnd-act-clr);
+		text-decoration: underline;
+		border: 1px solid var(--scnd-act-clr);
+	}
+
+	#text_intro {
+		background-color: #FF904A;
+		opacity: 0.9;
+		padding-bottom: 10px;
 	}
 
 	#text_famille {
-
+		background-color: #E89B43;
+		opacity: 0.9;
+		padding-bottom: 10px;
 	}
 
 	#text_parents {
-
+		background-color: #E8BF43;
+		opacity: 0.9;
+		padding-bottom: 10px;
 	}
 
 	#text_contact {
-		
+		background-color: #FFE44A;
+		opacity: 0.9;
+		padding-bottom: 10px;
 	}
 }
