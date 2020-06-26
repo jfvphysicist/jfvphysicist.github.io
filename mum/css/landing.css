@@ -191,20 +191,20 @@ li {
 		opacity: 0;
 	}
 
-	#text_famille {
+	#text_jeunes {
 		background-color: #E89B43;
 		opacity: 0.9;
 		margin-top: 100px;
 		/*margin-top: 100px;*/
 	}
 
-	#pic_famille {
+	#pic_jeunes {
 		background: no-repeat url("../img/famille.jpg") 50% / 100%;
 		max-height: 60%;
 		width: auto;
 	}
 
-	#pic_famille img {
+	#pic_jeunes img {
 		vertical-align: top;
 		max-height: 500px;
 		width: auto;
