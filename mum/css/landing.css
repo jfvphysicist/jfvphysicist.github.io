@@ -105,6 +105,7 @@ li {
 	#navbar a:hover, .sticky a:hover {
 		color: var(--scnd-act-clr);
 		border-bottom: 1px solid var(--scnd-act-clr);
+		font-weight: bold;
 	}
 
 	#main {
@@ -207,19 +208,19 @@ li {
 		opacity: 0;
 	}
 
-	#text_entreprise {
+	#text_parents {
 		background-color: #E8BF43;
 		opacity: 0.9;
 	}
 
-	#pic_entreprise {
+	#pic_parents {
 		background: no-repeat url("../img/parents.jpg") 50% / 100%;
 		max-height: 60%;
 		width: auto;
 		background-position: center;
 	}
 
-	#pic_entreprise img {
+	#pic_parents img {
 		vertical-align: top;
 		width: auto;
 		max-height: 500px;

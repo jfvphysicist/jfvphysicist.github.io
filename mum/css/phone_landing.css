@@ -29,10 +29,16 @@
 
 	.sticky {
 		position: fixed;
+		opacity: .8;
 		top: 0;
 		width: 100%;
 		background-color: var(--scnd-clr);
 		z-index: 2;
+	}
+
+	#navbar #menu a, .sticky #menu a {
+		color: var(--act-clr);
+		transition: 0.5s;
 	}
 
 	.icon {
@@ -49,24 +55,42 @@
 		color: var(--scnd-act-clr);
 	}
 
-	#main .section {
+	#navbar #menu a:hover, .sticky #menu a:hover {
+		color: var(--scnd-act-clr);
+		font-weight: bold;
+		/*border-bottom: 1px solid var(--scnd-act-clr);*/
+	}
+
+	.section {
 		border-bottom: 1px solid var(--act-clr);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		box-sizing: border-box;
-		padding: 5%;
+		/*padding: 5%;*/
+		width: 100%;
+	}
+
+	.section h1 {
+		font-family: 'Indie Flower';
+		padding: 15px;
+		color: var(--scnd-act-clr);
+		background-color: rgba(255,196,87,.8);
+		width: 100%;
+		text-align: center;
+		margin: 0;
 	}
 
 	.zone {
 		flex-direction: column;
+		width: 100%;
 	}
 
 	.bloc {
 		width: 100%;
 		margin: 0;
-		padding: 10px;
+		padding: 0 10px 0 10px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -78,9 +102,25 @@
 	}
 
 	img {
-		width: 100%;
+		width: 50%;
 		height: auto;
 		vertical-align: top;
-		opacity: 0;
+		opacity: 1;
+	}
+
+	#text_intro {
+
+	}
+
+	#text_famille {
+
+	}
+
+	#text_parents {
+
+	}
+
+	#text_contact {
+		
 	}
 }
