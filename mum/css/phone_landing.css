@@ -180,4 +180,8 @@
 	#pic_contact {
 		background-color: rgba(255, 228, 74,.9);
 	}
+
+	#scrollDown {
+		display: none;
+	}
 }
